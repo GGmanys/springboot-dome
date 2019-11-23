@@ -46,4 +46,12 @@ public class Employee {
     public void setdId(Integer dId) {
         this.dId = dId;
     }
+
+    public Employee(Integer id, String lastNaem, Integer gender, String email, Integer dId) {
+        this.id = id;
+        this.lastNaem = lastNaem;
+        this.gender = gender;
+        this.email = email;
+        this.dId = dId;
+    }
 }
